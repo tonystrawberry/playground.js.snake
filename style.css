@@ -1,0 +1,85 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	margin-top: 0;
+	margin: 0;
+	padding: 0;
+	background-color: #fffdb3;
+}
+
+header{
+	text-align: center;
+	color: white;
+	width: 100%;
+	height: 50px;
+	background-color: #294d2b;
+}
+
+h1{
+	font-family: "Cuprum";
+	margin: 0;
+	position: relative;
+	top: 7px;
+}
+
+#board{
+	position: relative;
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+	width: 500px;
+	height: 500px;
+	border: 5px solid #294d2b;
+	background-color: #88d28b;
+}
+
+#instructions{
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+	width: 200px;
+	height: auto;
+	border: 5px solid #294d2b;
+	background-color: #88d28b;
+	text-align: center;
+}
+
+#instructions #buttons{
+	margin: 10px;
+	font-family: "Cuprum";
+	color: black;
+}
+
+#instructions #points{
+	font-size: 35px;
+	margin: 10px;
+	font-family: "Cuprum";
+	color: black;
+}
+
+#pts{
+	display: inline;
+}
+
+#gameover{
+	margin: 10px;
+	font-size:35px;
+	color: #bb564d;
+	visibility: hidden;
+}
+
+.bodypart{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	background-color: #bb564d;
+	-webkit-border-radius: 3px;
+}
+
+.food{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	background-color: #ffad28;
+}
+
