@@ -4,3 +4,5 @@
 <h1 align="center">
   🐍 Web browser snake game in Javascript
 </h1>
+
+I build this game when I was still learning the basics of Javascript in 2013. Memories...
